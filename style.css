@@ -81,6 +81,7 @@
   
   .btn:hover {
     background-color: var(--color-primary-darker);
+    
   }
   
   .btn--text {
@@ -95,11 +96,12 @@
     padding-bottom: 2px;
     cursor: pointer;
     transition: all 0.3s;
+
   
   }
   .btn--text:hover {
     color: #444;
-    
+       
     }
 
     
@@ -169,7 +171,8 @@ p {
     padding: 0.8rem .5rem;
     border-radius: 3rem;
     background-color: var(--color-primary);
-    color: #222;
+    color: #fff;
+    background-image: var(--gradient-primary);
     
   }
   
@@ -184,6 +187,8 @@ p {
     padding: 0.5rem 1rem;
     border-radius: 3rem;
     background-color: var(--color-primary);
+    color: #fff;
+    background-image: var(--gradient-primary);
   }
 
   
@@ -229,6 +234,7 @@ p {
   
   .highlight {
     position: relative;
+    color: #fff;
   }
   
   .highlight::after {
@@ -314,6 +320,7 @@ p {
   
   .operations__tab--1 {
     background-color: var(--color-secondary);
+    
   }
   
   .operations__tab--1:hover {
