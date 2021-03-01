@@ -85,8 +85,6 @@ document.querySelector('.nav__links').addEventListener('click', function (e) {
 tabsContainer.addEventListener('click', e => {
   const clicked = e.target.closest('.operations__tab');
 
-  console.log(clicked);
-
   if (!clicked) return;
 
   //Remove active classes
